@@ -37,7 +37,7 @@ _start:
     push 0x306c6c65                     # which would make writing strings longer than 16 bytes more complicated
     push 0x306c6c65
     push 0x306c6c65                     # 42 also aligns the string to rsp + a multiple of 8 which is needed later to bring the string
-    push 0x306c6c65                     # up in the stack by popping datat off
+    push 0x306c6c65                     # up in the stack by popping data off
     pop rax
     pop rax
     pop rax
